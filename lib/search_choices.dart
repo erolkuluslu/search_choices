@@ -2951,7 +2951,7 @@ class _DropdownDialogState<T> extends State<DropdownDialog> {
             return (Column(children: [
               SizedBox(height: 15),
               Center(
-                child: SizedBox(height:40, width:40,child: Image.asset('assets/images/BlackLoader.gif')),
+                child: SizedBox(height:36, width:36,child: Image.asset('assets/images/BlackLoader.gif')),
               )
             ]));
           }
