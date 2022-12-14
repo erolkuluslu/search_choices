@@ -1457,7 +1457,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
         }
       }
     } else {
-      displayMenu.value = !closeMenu;
+     // displayMenu.value = !closeMenu;
     }
     if (mounted) {
       setState(() {});
