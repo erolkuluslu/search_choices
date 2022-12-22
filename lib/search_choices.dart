@@ -1,6 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:core';
+import 'package:get/get.dart' hide Response;
+import 'package:get/get_core/src/get_main.dart';
+
 
 const EdgeInsetsGeometry _kAlignedButtonPadding =
     EdgeInsetsDirectional.only(start: 16.0, end: 4.0);
@@ -1700,6 +1703,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
     }
     if (widget.onClear != null) {
       widget.onClear!();
+        Get.back();
     }
     setState(() {});
   }
