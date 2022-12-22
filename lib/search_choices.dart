@@ -1695,6 +1695,8 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
       
     if (widget.futureSearchFn == null) {
       selectedItems?.clear();
+        Get.back();
+
     } else {
       futureSelectedValues.clear();
     }
