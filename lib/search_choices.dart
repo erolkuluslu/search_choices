@@ -1686,8 +1686,8 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
       ],
     );
   }
-    /*
-
+    
+/*
   clearSelection() {
       
     if (widget.futureSearchFn == null) {
