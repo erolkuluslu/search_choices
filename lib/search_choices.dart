@@ -1686,8 +1686,10 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
       ],
     );
   }
+    /*
 
   clearSelection() {
+      
     if (widget.futureSearchFn == null) {
       selectedItems?.clear();
     } else {
@@ -1702,6 +1704,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
     setState(() {});
   }
 }
+*/
 
 /// Class mainly used internally to display the available choices. Cannot be
 /// made private because of automated testing.
