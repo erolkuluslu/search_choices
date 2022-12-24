@@ -1028,7 +1028,7 @@ class SearchChoices<T> extends FormField<T> {
     this.isExpanded = false,
     this.isCaseSensitiveSearch = false,
     this.closeButton,
-    this.displayClearIcon = true,
+    this.displayClearIcon = false,
     this.clearIcon = const Icon(Icons.clear),
     this.onClear,
     this.selectedValueWidgetFn,
