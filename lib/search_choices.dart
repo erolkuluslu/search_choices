@@ -1606,7 +1606,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
                                       : _disabledIconColor,
                               size: widget.iconSize,
                             ),
-                            child: widget.clearIcon,
+                            child: Icon(Icons.account_circle),
                           ),
                         ],
                       ),
