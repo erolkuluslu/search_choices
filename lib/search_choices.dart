@@ -602,7 +602,7 @@ class SearchChoices<T> extends FormField<T> {
     dynamic doneButton,
     dynamic label,
     dynamic closeButton = "Close",
-    bool displayClearIcon = true,
+    bool displayClearIcon = false,
     Icon clearIcon = const Icon(Icons.clear),
     Color? iconEnabledColor,
     Color? iconDisabledColor,
@@ -874,7 +874,7 @@ class SearchChoices<T> extends FormField<T> {
     dynamic doneButton = "Done",
     dynamic label,
     dynamic closeButton = "Close",
-    bool displayClearIcon = true,
+    bool displayClearIcon = false,
     Icon clearIcon = const Icon(Icons.clear),
     Color? iconEnabledColor,
     Color? iconDisabledColor,
@@ -1586,6 +1586,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
                     onTap: hasSelection && _enabled && !widget.readOnly
                         ? () {
                             clearSelection();
+                            Get.back();
                           }
                         : null,
                     child: Container(
