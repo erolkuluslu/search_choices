@@ -1696,7 +1696,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
       
     if (widget.futureSearchFn == null) {
       selectedItems?.clear();
-        Get.back();
+        
 
     } else {
       futureSelectedValues.clear();
@@ -1706,7 +1706,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
     }
     if (widget.onClear != null) {
       widget.onClear!();
-        Get.back();
+        
     }
     setState(() {});
   }
