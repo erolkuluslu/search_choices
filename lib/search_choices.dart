@@ -1585,7 +1585,7 @@ class _SearchChoicesState<T> extends FormFieldState<T> {
                 : InkWell(
                     onTap: hasSelection && _enabled && !widget.readOnly
                         ? () {
-                            clearSelection();
+                            //clearSelection();
                             Get.back();
                           }
                         : null,
