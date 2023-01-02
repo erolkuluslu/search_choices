@@ -603,7 +603,7 @@ class SearchChoices<T> extends FormField<T> {
     dynamic label,
     dynamic closeButton = "Close",
     bool displayClearIcon = false,
-    Icon clearIcon = const Icon(Icons.clear),
+    Icon clearIcon = const Icon(Icons.Icons.visibility),
     Color? iconEnabledColor,
     Color? iconDisabledColor,
     double iconSize = 24.0,
